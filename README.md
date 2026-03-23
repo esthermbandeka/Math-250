@@ -1,8 +1,5 @@
 
 # Math 250
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of Math 250 is to ...
+This is just a git and github sandbox for me in my Math 250 class
 
