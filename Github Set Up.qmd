@@ -6,11 +6,15 @@ embed-resources: true
 ---
 
 ```{r}
-#| label: setup
-#| message: false
+
 
 library(usethis)
-```
-#Connect RStudio to your Github
+
+# Connect RStudio to your Github
 create_github_token()
 gitcreds::gitcreds_set()
+
+# Put a project onto Github
+use_github()
+
+```
