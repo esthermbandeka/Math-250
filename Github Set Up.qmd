@@ -1,0 +1,16 @@
+---
+title: "Github Set Up"
+author: "Esther Mbandeka"
+format: html
+embed-resources: true
+---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(usethis)
+```
+#Connect RStudio to your Github
+create_github_token()
+gitcreds::gitcreds_set()
